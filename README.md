@@ -17,6 +17,14 @@
 4. P -> Q, Q -> R |= P -> R
 
 
+| P | Q | P v Q | ¬P | P v Q, ¬P \|= Q |
+| - | - | - | - | - |
+|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|
+|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|:x:|
+|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|:x:|:x:|:x:|:heavy_check_mark:|:x:|
+
+
 ------------------------------
 
 1. Hoje é fim de semana só se hoje for sábado ou domingo. Hoje não é sábado e é fim de semana. Logo, hoje é domingo.
